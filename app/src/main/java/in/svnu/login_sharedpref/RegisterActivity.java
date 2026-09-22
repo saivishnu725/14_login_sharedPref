@@ -2,6 +2,7 @@ package in.svnu.login_sharedpref;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class RegisterActivity extends AppCompatActivity {
 
     Spinner spCourse, spGender;
+    Button btnRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,7 @@ public class RegisterActivity extends AppCompatActivity {
         // get Views
         spCourse = findViewById(R.id.spCourse);
         spGender = findViewById(R.id.spGender);
+        btnRegister = findViewById(R.id.btnRegister);
 
         // course
         ArrayAdapter<CharSequence> course_adapter = ArrayAdapter.createFromResource(this, R.array.list_course, android.R.layout.simple_spinner_item);
@@ -39,4 +42,11 @@ public class RegisterActivity extends AppCompatActivity {
         gender_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spGender.setAdapter(gender_adapter);
     }
+
+    // register btn
+        // check for empty fields
+        // validating all the necessary fields
+        // password
+        // email
+        // phone number
 }
