@@ -12,6 +12,7 @@ First activity should have two buttons such as `Log in` and `Registration`.
 3. create a registration page of fields `Username`, `password`, `email`, `phone number`, `course`, `gender`, `age`
 4. apply necessary `Validations` to it:
     - Make all the fields as mandatory
-    - Password must contain minimum of 6 characters (upper, lower, number). • Phone should accept only 10 numbers
-    - Email should follow the standard format ‘@xyz.COM/EDU/IN/ORG’
+    - Password must contain minimum of 6 characters (upper, lower, number)
+    - Phone should accept only 10 numbers
+    - Email should follow the standard format `@xyz.COM/EDU/IN/ORG`
 5. use `Shared Preferences` that stores `username` & `password`, and retrieve them for login
