@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">login_sharedpref</string>
+    <string name="register_text">Register</string>
+    <string name="login_text">Login</string>
+    <string name="login_or_register_textview">Login or Register</string>
+    <string name="username_text">Username</string>
 </resources>
